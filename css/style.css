@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'entypo';
+  src: url('../font/entypo.eot');
+  src: url('../font/entypo.eot?#iefix') format('embedded-opentype'),
+       url('../font/entypo.woff') format('woff'),
+       url('../font/entypo.ttf')  format('truetype'),
+       url('../font/entypo.svg#entypo') format('svg');
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    padding-bottom: 80px;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: #2c81be;
+    padding: 70px 0 0;
+    height: 480px;
+    background-image: url('../img/head.png');
+    background-size: 188px 480px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: "futura-pt";
+    font-weight: 100;
+    font-size: 60px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+}
+
+h1 strong {
+    font-weight: 400;
+}
+
+
+h2, h3 {
+    font-family: "futura-pt";
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+h2 {
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.container {
+    max-width: 700px;
+}
+
+.center {
+    text-align: center;
+}
+.screenshot {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.screenshot img {
+    max-width: 100%;
+}
+
+.icon-notification {
+    font-family: 'entypo';
+    font-size: 140px;
+    color: #eee;
+    line-height: 40px;
+    position: relative;
+}
+
+.icon-notification:after {
+    content: "1";
+    background-color: #e93c36;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    width: 25px;
+    border-radius: 999em;
+    display: block;
+    position: absolute;
+    height: 25px;
+    line-height: 25px;
+    top: 32px;
+    right: 0;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
+}
+
+.icon-featured {
+    font-family: 'entypo';
+    font-size: 140px;
+    color: #eee;
+    line-height: 40px;
+    position: relative;
+}
+
+.icon-featured:after {
+    content: "\2713";
+    color: #62d100;
+
+    font-weight: normal;
+    font-size: 70px;
+    text-align: center;
+    width: 32px;
+    margin-left: -15px;
+    border-radius: 999em;
+    display: block;
+    position: absolute;
+    height: 32px;
+    line-height: 32px;
+    top: 55px;
+    left: 50%;
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.4);
+}
