@@ -64,56 +64,9 @@ h2 {
     max-width: 100%;
 }
 
-.icon-notification {
-    font-family: 'entypo';
-    font-size: 140px;
-    color: #eee;
-    line-height: 40px;
-    position: relative;
-}
-
-.icon-notification:after {
-    content: "1";
-    background-color: #e93c36;
-    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-    color: white;
-    font-weight: normal;
-    font-size: 14px;
-    text-align: center;
-    width: 25px;
-    border-radius: 999em;
-    display: block;
-    position: absolute;
-    height: 25px;
-    line-height: 25px;
-    top: 32px;
-    right: 0;
-    box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
-}
-
-.icon-featured {
-    font-family: 'entypo';
-    font-size: 140px;
-    color: #eee;
-    line-height: 40px;
-    position: relative;
-}
-
-.icon-featured:after {
-    content: "\2713";
-    color: #62d100;
-
-    font-weight: normal;
-    font-size: 70px;
-    text-align: center;
-    width: 32px;
-    margin-left: -15px;
-    border-radius: 999em;
-    display: block;
-    position: absolute;
-    height: 32px;
-    line-height: 32px;
-    top: 55px;
-    left: 50%;
-    text-shadow: 0px 1px 1px rgba(255,255,255,0.4);
+.foxes {
+    width: 135px;
+    height: 138px;
+    background-image: url('../img/foxes.png');
+    margin: auto;
 }
