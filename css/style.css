@@ -25,6 +25,21 @@ header {
     margin-bottom: 50px;
 }
 
+@media (max-width: 767px) {
+    header {
+        padding-top: 30px;
+    }
+}
+
+a {
+    color: #3385BA;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #2B54B3;
+}
+
 h1 {
     font-family: "futura-pt";
     font-weight: 100;
@@ -36,6 +51,10 @@ h1 strong {
     font-weight: 400;
 }
 
+h2 {
+    margin-bottom: 0;
+    padding-top: 50px;
+}
 
 h2, h3 {
     font-family: "futura-pt";
@@ -64,9 +83,47 @@ h2 {
     max-width: 100%;
 }
 
+.next-row {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.col-sm-6:nth-child(2) {
+    margin-top: 50px;
+}
+
+.btn-download {
+    background: #47C2D0;
+    padding: 8px 40px 5px;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.btn-download:hover {
+    color: white;
+    background: #48aab5;
+}
+
+.appstore {
+    margin-left: 40px;
+}
+
+@media (max-width: 767px) {
+    .appstore {
+        margin-left: 0;
+        margin-bottom: 10px;
+        display: block;
+    }
+}
+
 .foxes {
-    width: 135px;
-    height: 138px;
-    background-image: url('../img/foxes.png');
+    width: 120px;
     margin: auto;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 9px;
+    color: #888;
 }

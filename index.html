@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Goofy App - Your OS X client for Facebook Messenger</title>
     
     <link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400' rel='stylesheet' type='text/css'>
@@ -19,10 +20,12 @@
 			Introducing <strong>Goofy</strong>
 		</h1>
 	</header>
-    <div class="container center">
+    <div class="center">
 		<section>
 			<h2>Your desktop client for Facebook Messenger</h2>
-			
+			<p class="lead container">
+				Never lose your chat window among all the other open browser windows and get notifed about new messages.
+			</p>
 		</section>
 	</div>
 	<section class="screenshot">
@@ -32,34 +35,37 @@
 	<div class="container center">
 		<section class="row center">
 			<div class="col-sm-6">
-				<div class="foxes"></div>
+				<img class="foxes" src="img/icon-notifications.png" />
 				<h3>Notifications</h3>
 				Don't miss any message from your friends. Goofy uses the built-in system notifications and Dock badge to inform you about new messages.	
 			</div>
 			<div class="col-sm-6">
-				<div class="foxes"></div>
+				<img class="foxes" src="img/icon-features.png" />
 				<h3>Fully featured</h3>
-				Goofy uses Facebook's very own web-chat and therefore has all its features. Including stickers, group chat, search and more...
+				Goofy uses Facebook's very own web-chat and therefore has all its features. Including stickers, group chats, search and more...
 			</div>
 		</section>
-		
-		<section class="row center">
+		<section class="row center next-row">
 			<div class="col-sm-6">
-				<div class="foxes"></div>
-				<h3>Yosemite ready</h3>
-				Don't miss any message from your friends. Goofy uses the built-in system notifications and Dock badge to inform you about new messages.	
+				<img class="foxes" src="img/icon-free.png" />
+				<h3>Free</h3>
+				I wrote this App because it helps me to better use Facebook Messenger. So why shouldn't you have it, too?
 			</div>
 			<div class="col-sm-6">
-				<div class="foxes"></div>
-				<h3>Free</h3>
-				Goofy uses Facebook's very own web-chat and therefore has all its features. Including stickers, group chat, search and more...
+				<img class="foxes" src="img/icon-how.png" />
+				<h3>Nice,...but how?</h3>
+				Basically this is just a web-view of facebook.com/messages. I just add some JavaScript and CSS to make it fancy. <a href="http://nshipster.com/wkwebkit/" target="_blank">Learn&nbsp;more!</a>
 			</div>
 		</section>
 		
 		<section>
-			<a href="" target="_blank"><img src="img/macappstore.svg" /></a>
+			<a class="appstore" href="" target="_blank"><img src="img/macappstore.svg" /></a>
+			<a class="btn btn-download" href="https://goofyapp.s3.amazonaws.com/Goofy.app.zip" />Download</a>
 		</section>
 		
+		<footer class="container">
+			All foxes belong to Facebook, I just love them. Everything fruity belongs to Apple. They are nice, too!
+		</footer>
 	</div>
 </body>
 </html>
