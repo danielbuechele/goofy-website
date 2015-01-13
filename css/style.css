@@ -18,7 +18,7 @@ header {
     text-align: center;
     color: white;
     background-color: #2c81be;
-    padding: 70px 0 0;
+    padding: 30px 0 0;
     height: 480px;
     background-image: url('../img/head.png');
     background-size: 188px 480px;
@@ -99,6 +99,20 @@ h2 {
     color: white;
     font-size: 18px;
     border-radius: 4px;
+}
+
+header .btn {
+    border: 2px solid white;
+    font-family: "futura-pt";
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-top: 6px;
+}
+
+@media (max-width: 767px) {
+    header .btn {
+        margin-top: 14px;
+    }
 }
 
 .btn-download:hover {
