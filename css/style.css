@@ -120,9 +120,6 @@ header .btn {
     background: #48aab5;
 }
 
-.appstore {
-    margin-left: 40px;
-}
 
 @media (max-width: 767px) {
     .appstore {
