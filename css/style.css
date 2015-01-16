@@ -85,12 +85,21 @@ h2 {
 
 .next-row {
     margin-top: 50px;
-    margin-bottom: 80px;
+    
 }
 @media (max-width: 767px) {
     .col-sm-6:nth-child(2) {
         margin-top: 50px;
     }
+}
+
+.fbatwork {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+code {
+    color: black;
+    background: transparent;
 }
 
 .btn-download {
