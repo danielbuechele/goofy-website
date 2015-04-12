@@ -12,15 +12,13 @@ body {
     font-weight: 300;
     font-size: 16px;
     padding-bottom: 80px;
+    color: #232323;
 }
 
 header {
     text-align: center;
-    color: white;
-    background-color: #2c81be;
+    background: #fff;
     padding: 30px 0 0;
-    height: 480px;
-    background-image: url('../img/head.png');
     background-size: 188px 480px;
     margin-bottom: 50px;
 }
@@ -31,24 +29,22 @@ header {
     }
 }
 
-a {
-    color: #3385BA;
+a, a:visited {
+		font-weight: 400;
+    color: #0084FF;
 }
 
-a:hover {
+a:hover, a:active, a:focus {
     text-decoration: none;
-    color: #2B54B3;
+    color: #25BCFA;
 }
 
 h1 {
     font-family: "futura-pt";
-    font-weight: 100;
     font-size: 60px;
-    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
-}
-
-h1 strong {
     font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 h2 {
@@ -67,6 +63,21 @@ h2 {
     margin-bottom: 30px;
 }
 
+h3 {
+    font-weight: 400;
+    margin-bottom: 14px;
+    color: #232323;
+}
+
+p {
+	color: #707070;
+}
+
+.features {
+	color: #707070;
+	line-height: 1.6;
+}
+
 .container {
     max-width: 700px;
 }
@@ -74,9 +85,17 @@ h2 {
 .center {
     text-align: center;
 }
+
 .screenshot {
     margin: 50px auto;
+    padding-top: 40px;
+    background-color: #0084FF;
     text-align: center;
+    color: #fff;
+}
+
+.screenshot p {
+    color: #fff;
 }
 
 .screenshot img {
@@ -94,41 +113,50 @@ h2 {
 }
 
 .fbatwork {
-    margin-bottom: 80px;
-    margin-top: 50px;
+  margin-bottom: 40px;
+  margin-top: 60px;
 }
+
+.questions {
+		background: #F7FAFC;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+}
+
 code {
     color: black;
     background: transparent;
 }
 
-.btn-download {
-    background: #47C2D0;
-    padding: 8px 40px 5px;
-    color: white;
+.btn, .btn:visited {
+		background: #0084FF;
+    font-family: "futura-pt";
+    text-transform: uppercase;
+    margin-top: 20px;
+    vertical-align: middle;
+    padding: 14px 55px;
+    color: #fff;
     font-size: 18px;
     border-radius: 4px;
 }
 
-header .btn {
-    border: 2px solid white;
-    font-family: "futura-pt";
-    text-transform: uppercase;
-    margin-top: 20px;
-    padding-top: 6px;
+.btn:hover {
+	color: #fff;
+	background: #2094FF;
+}
+
+.btn:active, .btn:focus {
+	color: #fff;
+	background: #0078E7;
+	box-shadow: none;
 }
 
 @media (max-width: 767px) {
-    header .btn {
+    .btn {
         margin-top: 14px;
     }
 }
-
-.btn-download:hover {
-    color: white;
-    background: #48aab5;
-}
-
 
 @media (max-width: 767px) {
     .appstore {
@@ -157,9 +185,9 @@ header .btn {
 }
 
 footer {
-    margin-top: 20px;
-    font-size: 9px;
-    color: #888;
+    margin-top: 50px;
+    font-size: 12px;
+    color: #ccc;
 }
 
 .sosumi {
